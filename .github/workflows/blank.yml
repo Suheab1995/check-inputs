@@ -16,5 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo "Env: ${{ github.event.inputs.environment }}" 
-        echo "Branch: ${{ github.event.inputs.branch }}"      
+        echo "Env: ${{inputs.environment }}" 
+        echo "Branch: ${{inputs.branch }}"      
